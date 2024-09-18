@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Website meta data and links to fonts and styles -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="Styles.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="left">
+            <a href="/">Edward Spellman</a>
+        </div>
+        <div class="right">
+            
+            <a href="Projects.html" target="_blank" rel="noopener noreferrer">
+                <i class=""></i>
+                <span>Projects</span>
+            </a>
+            <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+            </a>
+
+            <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+            
+
+            <a href="https://linktr.ee/gamedeved" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-link"></i>
+                <span>LinkTree</span>
+            </a>
+
+            <a href="mailto:edwardspellman.swe@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Section 1: About Me -->
+        <section class="About-Me"> 
+            <div class="text">
+                <h2>Hello, my name is Edward</h2>
+                <p>
+                    Welcome to my portfolio! I’m Edward Spellman, a passionate and dedicated Game Developer/ software developer with a strong foundation in C++ and Unreal Engine. My journey into programming began in my first class programming 1 in college, and since then, I’ve been developing and trying to improve my skills further.
+                </p>   
+                <!-- Sends you directly to the specific spot on the website -->
+                <div class="links">
+                    <a href="#Skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                    <a href="#Testimony">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Testimony</span>
+                    </a>
+                    <a href="#Contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="HeadShot">
+                <img src="images/Mypic.webp" alt="Headshot of Edward Spellman">
+            </div>
+        </section>
+
+        <!-- Section 2: Skills -->
+        <section id="Skills" class="Skills-Section">
+            <!-- Content for Skills section -->
+            <h2>Skills</h2>
+            <div class = "text">
+                In the skills section of my portfolio, I list my proficiency in programming languages such as C++ and C#, HTML, etc.... as well as my experience with various development engines.
+            </div>
+
+            <div class="cells">
+               <div class = "cell">
+                   <img src="images/html-logo.webp" alt="html-logo">
+                   <span>HTML(learning)</span>
+               </div>
+
+               <div class = "cell">
+                   <img src="images/css-logo.webp" alt="css-logo">
+                   <span>CSS -learning</span>
+               </div>
+
+               <div class = "cell">
+                <img src="images/cplus-logo.webp" alt="cplus-logo">
+                <span>C++</span>
+                </div>
+
+                <div class = "cell">
+                    <img src="images/cplus-logo.webp" alt="cplus-logo">
+                    <span>C#</span>
+                    </div>
+                    
+                <div class = "cell">
+                    <img src="images/cplus-logo.webp" alt="cplus-logo">
+                    <span>Unity</span>
+                    </div>
+                
+                 <div class = "cell">
+                        <img src="images/cplus-logo.webp" alt="cplus-logo">
+                    <span>Unreal Engine</span>
+                    </div>
+
+             </div>
+        </section>
+
+        <!-- Section 3: Testimony -->
+        <section id="Testimony" class="Testimony-section">
+            <!-- Content for Testimony section -->
+             <h2>Testimony</h2>
+             <div class="group">
+                <div class="Person-Details">
+                    <img src="images/Mypic.webp">
+                    <p>Edward Spellman</p>
+                    <p>"Jesus Loves you".</p>
+                </div>
+                <div class="Text">"Passionate about coding and eager to learn, I’m ready to turn innovative ideas into reality and grow as a developer with every challenge. I welcome constructive criticism as a valuable tool for improvement and growth."</div>
+             </div>
+        </section>
+
+        <!-- Section 4: Contact -->
+        <section id="Contact" class="Contact-Section">
+            <!-- Content for Contact section -->
+             <h2>Contact</h2>
+             <div class="group">
+             <div class="text">
+                I’m always excited to discuss new opportunities, share knowledge, or collaborate on innovative projects. Feel free to reach out to me through email, LinkedIn, or a contact form, if you’d like to connect. Thank you for visiting my portfolio! I look forward to exploring how we can work together to create something amazing.
+             </div>
+             <Form action="https://formsubmit.co/edwardspellman.swe@gmail.com" method="POST" target="_blank">
+                <label for="name">Name</label>
+                <input type="text" id="name" name = name required>
+
+                <label for="Email"> Your Email</label>
+                <input type="Email" id="Email" Email = email required>
+
+                <label for="Message">Message</label>
+                <textarea id="Message" cols="30" rows="10" name = message></textarea>
+
+                <button type="submit">Send Message</button>
+             </Form>
+             </div>
+        </section>
+    </main>
+</body>
+</html>
